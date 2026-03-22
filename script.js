@@ -174,6 +174,12 @@ function displayAuthorDetail(author, allAuthors) {
     
     const authorHTML = `
         <div class="author-detail">
+            <div class="breadcrumb">
+                <a href="index.html">Home</a>
+                <span class="separator">/</span>
+                <span class="current">${escapeHtml(author.name)}</span>
+            </div>
+        
             <div class="author-two-columns">
                 <div class="author-portrait">
                     <img src="${author.imageUrl || 'images/placeholder.png'}" 

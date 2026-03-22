@@ -111,6 +111,35 @@ h1 {
     color: #3A2C1F;
 }
 
+/* Breadcrumb */
+.breadcrumb {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.8rem;
+    margin-bottom: 2rem;
+    padding: 0.75rem 0;
+    border-bottom: 1px solid rgba(110, 75, 45, 0.2);
+}
+
+.breadcrumb a {
+    color: #6A4E2E;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.breadcrumb a:hover {
+    color: #C17B5E;
+}
+
+.breadcrumb .separator {
+    margin: 0 0.5rem;
+    color: #9B8568;
+}
+
+.breadcrumb .current {
+    color: #3A2C1F;
+    font-weight: 500;
+}
+
 /* Authors Grid */
 .authors-grid {
     display: grid;
@@ -751,35 +780,6 @@ footer {
 /* Book Detail Page */
 .book-content {
     min-height: 400px;
-}
-
-/* Breadcrumb */
-.breadcrumb {
-    font-family: 'Inter', sans-serif;
-    font-size: 0.8rem;
-    margin-bottom: 2rem;
-    padding: 0.75rem 0;
-    border-bottom: 1px solid rgba(110, 75, 45, 0.2);
-}
-
-.breadcrumb a {
-    color: #6A4E2E;
-    text-decoration: none;
-    transition: color 0.2s ease;
-}
-
-.breadcrumb a:hover {
-    color: #C17B5E;
-}
-
-.breadcrumb .separator {
-    margin: 0 0.5rem;
-    color: #9B8568;
-}
-
-.breadcrumb .current {
-    color: #3A2C1F;
-    font-weight: 500;
 }
 
 /* Book Detail Two-Column Layout */
