@@ -16,33 +16,27 @@ async function loadAuthors() {
     } catch (error) {
         console.error('Error loading authors:', error);
         const grid = document.getElementById('authorsGrid');
-        grid.innerHTML = '<div class="no-results">Unable to load authors. Please refresh the page.</div>';
+        if (grid) {
+            grid.innerHTML = '<div class="no-results">Unable to load authors. Please refresh the page.</div>';
+        }
     }
 }
 
 // Display authors in the grid
 function displayAuthors(authors) {
     const grid = document.getElementById('authorsGrid');
-    const resultCountSpan = document.getElementById('resultCount');
     
     if (!grid) return;
     
     if (authors.length === 0) {
         grid.innerHTML = '<div class="no-results">No authors found matching your search.</div>';
-        if (resultCountSpan) resultCountSpan.textContent = '0 authors found';
         return;
-    }
-    
-    // Update result count
-    if (resultCountSpan) {
-        const countText = authors.length === 1 ? '1 author found' : `${authors.length} authors found`;
-        resultCountSpan.textContent = countText;
     }
     
     // Generate HTML for each author card
     const authorsHTML = authors.map(author => {
         const yearsText = author.deathYear ? 
-            `${author.birthYear}–${author.deathYear}` : 
+            `${author.birthYear}—${author.deathYear}` : 
             `b. ${author.birthYear}`;
         
         const bookCount = author.books ? author.books.length : 0;
@@ -52,8 +46,8 @@ function displayAuthors(authors) {
             <a href="author.html?slug=${encodeURIComponent(author.slug)}" class="author-card">
                 <div class="author-image">
                     <img src="images/placeholder.png" 
-                         alt="${author.name}"
-                         onerror="this.parentElement.innerHTML='<div class=\'placeholder-img\'><span>✍️</span></div>'">
+                         alt="${escapeHtml(author.name)}"
+                         onerror="this.parentElement.innerHTML='<div class=\'placeholder-img\'><span>📖</span></div>'">
                 </div>
                 <div class="author-info">
                     <h2 class="author-name">${escapeHtml(author.name)}</h2>
