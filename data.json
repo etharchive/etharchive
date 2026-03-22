@@ -6,6 +6,7 @@
       "birthYear": 1910,
       "deathYear": 2003,
       "slug": "haddis-alemayehu",
+      "imageUrl": "images/placeholder.png",
       "bio": "One of Ethiopia's most celebrated novelists and diplomats, best known for his masterpiece 'Love to the Grave' (Fikir Eske Mekabir). His work explores the complexities of Ethiopian society, love, and tradition.",
       "books": [
         {
@@ -14,7 +15,8 @@
           "year": 1965,
           "slug": "fikir-eske-mekabir",
           "description": "A classic Ethiopian novel exploring love, betrayal, and social norms in traditional Ethiopian society. Considered a masterpiece of Amharic literature.",
-          "pages": 412
+          "pages": 412,
+          "coverUrl": "images/placeholder.png"
         },
         {
           "id": 102,
@@ -22,7 +24,8 @@
           "year": 1972,
           "slug": "ye-wof-wof",
           "description": "A collection of essays and reflections on Ethiopian society and culture during a period of significant change.",
-          "pages": 188
+          "pages": 188,
+          "coverUrl": "images/placeholder.png"
         }
       ]
     },
@@ -32,6 +35,7 @@
       "birthYear": 1971,
       "deathYear": null,
       "slug": "maaza-mengiste",
+      "imageUrl": "images/placeholder.png",
       "bio": "A contemporary Ethiopian-American writer whose work explores themes of war, memory, and identity. Her novel 'The Shadow King' was shortlisted for the Booker Prize and named one of the best books of the year by The New York Times.",
       "books": [
         {
@@ -40,7 +44,8 @@
           "year": 2019,
           "slug": "the-shadow-king",
           "description": "A sweeping novel set during the 1935 Italian invasion of Ethiopia, focusing on the women who fought in the war. Shortlisted for the Booker Prize.",
-          "pages": 448
+          "pages": 448,
+          "coverUrl": "images/placeholder.png"
         },
         {
           "id": 202,
@@ -48,7 +53,8 @@
           "year": 2010,
           "slug": "beneath-the-lions-gaze",
           "description": "A story of a family torn apart by the Ethiopian Revolution of 1974, exploring loyalty, betrayal, and survival.",
-          "pages": 320
+          "pages": 320,
+          "coverUrl": "images/placeholder.png"
         }
       ]
     },
@@ -58,6 +64,7 @@
       "birthYear": 1978,
       "deathYear": null,
       "slug": "dinaw-mengestu",
+      "imageUrl": "images/placeholder.png",
       "bio": "Ethiopian-American novelist and recipient of a MacArthur Fellowship. His work often explores the immigrant experience, memory, and the search for identity across generations.",
       "books": [
         {
@@ -66,7 +73,8 @@
           "year": 2007,
           "slug": "beautiful-things-heaven-bears",
           "description": "A novel about an Ethiopian immigrant running a small store in a gentrifying Washington D.C. neighborhood.",
-          "pages": 288
+          "pages": 288,
+          "coverUrl": "images/placeholder.png"
         },
         {
           "id": 302,
@@ -74,7 +82,8 @@
           "year": 2010,
           "slug": "how-to-read-the-air",
           "description": "A story about one man's journey to understand his parents' past and his own identity through a road trip across America.",
-          "pages": 320
+          "pages": 320,
+          "coverUrl": "images/placeholder.png"
         }
       ]
     },
@@ -84,6 +93,7 @@
       "birthYear": 1972,
       "deathYear": null,
       "slug": "sulaiman-addonia",
+      "imageUrl": "images/placeholder.png",
       "bio": "A writer born in Eritrea but raised in Ethiopia and later in Europe. His novels explore themes of love, migration, and identity with lyrical intensity.",
       "books": [
         {
@@ -92,7 +102,8 @@
           "year": 2008,
           "slug": "consequences-of-love",
           "description": "A novel set in Saudi Arabia about forbidden love and the immigrant experience in a restrictive society.",
-          "pages": 368
+          "pages": 368,
+          "coverUrl": "images/placeholder.png"
         },
         {
           "id": 402,
@@ -100,7 +111,8 @@
           "year": 2018,
           "slug": "silence-is-my-mother-tongue",
           "description": "A story set in a Sudanese refugee camp about a brother and sister building a new life and community.",
-          "pages": 400
+          "pages": 400,
+          "coverUrl": "images/placeholder.png"
         }
       ]
     },
@@ -110,6 +122,7 @@
       "birthYear": 1952,
       "deathYear": 2019,
       "slug": "lemlem-seged",
+      "imageUrl": "images/placeholder.png",
       "bio": "A pioneering Ethiopian novelist and journalist who wrote extensively about women's lives, social change, and the complexities of modern Ethiopian society.",
       "books": [
         {
@@ -118,7 +131,8 @@
           "year": 1995,
           "slug": "ye-ababa-wof",
           "description": "A novel exploring family dynamics and the role of women in Ethiopian society across generations.",
-          "pages": 256
+          "pages": 256,
+          "coverUrl": "images/placeholder.png"
         },
         {
           "id": 502,
@@ -126,7 +140,8 @@
           "year": 2003,
           "slug": "sost-maed",
           "description": "A collection of interconnected stories about urban life in Addis Ababa and the changing face of Ethiopian cities.",
-          "pages": 192
+          "pages": 192,
+          "coverUrl": "images/placeholder.png"
         }
       ]
     },
@@ -136,6 +151,7 @@
       "birthYear": 1935,
       "deathYear": 1984,
       "slug": "bealu-girma",
+      "imageUrl": "images/placeholder.png",
       "bio": "A prolific Ethiopian novelist and journalist known for his critical examination of Ethiopian society and politics. His mysterious death remains a subject of discussion.",
       "books": [
         {
@@ -144,7 +160,8 @@
           "year": 1983,
           "slug": "oromay",
           "description": "A controversial novel that critiques the Derg regime, leading to the author's mysterious death shortly after publication.",
-          "pages": 350
+          "pages": 350,
+          "coverUrl": "images/placeholder.png"
         },
         {
           "id": 602,
@@ -152,7 +169,8 @@
           "year": 1975,
           "slug": "kebur-zema",
           "description": "A novel exploring the complexities of Ethiopian society during a time of political and social transition.",
-          "pages": 280
+          "pages": 280,
+          "coverUrl": "images/placeholder.png"
         }
       ]
     },
@@ -162,6 +180,7 @@
       "birthYear": 1958,
       "deathYear": null,
       "slug": "nega-mezlekia",
+      "imageUrl": "images/placeholder.png",
       "bio": "Ethiopian-Canadian writer whose memoir won the Governor General's Award. His work blends memoir and fiction to explore Ethiopian history.",
       "books": [
         {
@@ -170,7 +189,8 @@
           "year": 2000,
           "slug": "notes-from-the-hyenas-belly",
           "description": "A memoir of growing up in Ethiopia during the动荡 years of the Derg regime, blending personal history with political commentary.",
-          "pages": 352
+          "pages": 352,
+          "coverUrl": "images/placeholder.png"
         },
         {
           "id": 702,
@@ -178,7 +198,8 @@
           "year": 2002,
           "slug": "the-god-who-begat-a-jackal",
           "description": "A novel set in 17th-century Ethiopia exploring themes of love, betrayal, and the collision of tradition and modernity.",
-          "pages": 304
+          "pages": 304,
+          "coverUrl": "images/placeholder.png"
         }
       ]
     },
@@ -188,6 +209,7 @@
       "birthYear": 1980,
       "deathYear": null,
       "slug": "mihret-kebede",
+      "imageUrl": "images/placeholder.png",
       "bio": "Contemporary Ethiopian novelist writing in Amharic, known for exploring urban life and the experiences of young Ethiopians in Addis Ababa.",
       "books": [
         {
@@ -196,7 +218,8 @@
           "year": 2015,
           "slug": "ye-addis-ababa-sew",
           "description": "A novel exploring the lives of young professionals navigating love, ambition, and tradition in modern Addis Ababa.",
-          "pages": 290
+          "pages": 290,
+          "coverUrl": "images/placeholder.png"
         }
       ]
     }

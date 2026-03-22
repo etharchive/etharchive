@@ -1,3 +1,4 @@
+/* style.css */
 * {
     margin: 0;
     padding: 0;
@@ -60,11 +61,12 @@ h1 {
 .search-wrapper {
     width: 100%;
     max-width: 500px;
+    position: relative;
 }
 
 .search-input {
     width: 100%;
-    padding: 0.875rem 1.25rem;
+    padding: 0.875rem 3rem 0.875rem 1.25rem;
     font-family: 'Inter', sans-serif;
     font-size: 0.95rem;
     background: rgba(250, 245, 235, 0.9);
@@ -88,7 +90,28 @@ h1 {
     font-family: 'Cormorant Garamond', serif;
 }
 
-/* Authors Grid - 5-6 columns */
+.clear-search-btn {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    color: #9B8568;
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: color 0.2s ease;
+}
+
+.clear-search-btn:hover {
+    color: #3A2C1F;
+}
+
+/* Authors Grid */
 .authors-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -96,7 +119,6 @@ h1 {
     margin-bottom: 3rem;
 }
 
-/* Author Card - Long card with overlay and zoom effect */
 .author-card {
     position: relative;
     display: block;
@@ -108,11 +130,13 @@ h1 {
     background: #F5EDE0;
     border: 1px solid rgba(110, 75, 45, 0.25);
     transition: all 0.4s cubic-bezier(0.2, 0.9, 0.4, 1.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
 }
 
 .author-card:hover {
     transform: translateY(-6px);
-    border-color: rgba(110, 75, 45, 0.5);
+    border-color: #C17B5E;
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.12);
 }
 
 .author-image {
@@ -129,11 +153,6 @@ h1 {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    transition: transform 0.5s cubic-bezier(0.2, 0.9, 0.4, 1.1);
-}
-
-.author-card:hover .author-image img {
-    transform: scale(1.08);
 }
 
 .placeholder-img {
@@ -147,7 +166,6 @@ h1 {
     color: #8B6B3D;
 }
 
-/* Gradient Overlay */
 .author-card::before {
     content: '';
     position: absolute;
@@ -172,7 +190,6 @@ h1 {
         transparent 100%);
 }
 
-/* Card Content - Absolutely positioned */
 .author-info {
     position: absolute;
     bottom: 0;
@@ -213,7 +230,6 @@ h1 {
     margin-top: 0.4rem;
 }
 
-/* Loading and No Results */
 .loading, .no-results {
     grid-column: 1 / -1;
     text-align: center;
@@ -278,6 +294,7 @@ footer {
     
     .authors-grid {
         grid-template-columns: repeat(3, 1fr);
+        gap: 0.5rem;
     }
     
     .author-info {
@@ -296,6 +313,7 @@ footer {
 @media (max-width: 480px) {
     .authors-grid {
         grid-template-columns: repeat(2, 1fr);
+        gap: 0.5rem;
     }
     
     .author-info {
@@ -311,36 +329,7 @@ footer {
     }
     
     .search-input {
-        padding: 0.7rem 1rem;
+        padding: 0.7rem 2.5rem 0.7rem 1rem;
         font-size: 0.85rem;
     }
-}
-
-/* Subtle paper texture effect */
-.author-card {
-    position: relative;
-}
-
-.author-card::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    pointer-events: none;
-    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><filter id="noise"><feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="1" stitchTiles="stitch"/></filter><rect width="100" height="100" filter="url(%23noise)" opacity="0.04"/></svg>');
-    background-repeat: repeat;
-    opacity: 0.3;
-    pointer-events: none;
-    z-index: 3;
-}
-
-/* Vintage paper edge effect on cards */
-.author-card {
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
-}
-
-.author-card:hover {
-    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.12);
 }

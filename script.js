@@ -42,12 +42,14 @@ function displayAuthors(authors) {
         const bookCount = author.books ? author.books.length : 0;
         const bookText = bookCount === 1 ? '1 book' : `${bookCount} books`;
         
+        const imageUrl = author.imageUrl || 'images/placeholder.png';
+        
         return `
             <a href="author.html?slug=${encodeURIComponent(author.slug)}" class="author-card">
                 <div class="author-image">
-                    <img src="images/placeholder.png" 
+                    <img src="${escapeHtml(imageUrl)}" 
                          alt="${escapeHtml(author.name)}"
-                         onerror="this.parentElement.innerHTML='<div class=\'placeholder-img\'><span>📖</span></div>'">
+                         onerror="this.parentElement.innerHTML='<div class=\'placeholder-img\'><i class=\'fas fa-user\'></i></div>'">
                 </div>
                 <div class="author-info">
                     <h2 class="author-name">${escapeHtml(author.name)}</h2>
@@ -75,11 +77,19 @@ function escapeHtml(str) {
 // Setup search functionality
 function setupSearch() {
     const searchInput = document.getElementById('searchInput');
+    const clearBtn = document.getElementById('clearSearchBtn');
+    
     if (!searchInput) return;
     
+    // Search input event
     searchInput.addEventListener('input', (e) => {
         const searchTerm = e.target.value.toLowerCase().trim();
         currentFilter = searchTerm;
+        
+        // Show/hide clear button
+        if (clearBtn) {
+            clearBtn.style.display = searchTerm.length > 0 ? 'flex' : 'none';
+        }
         
         if (searchTerm === '') {
             displayAuthors(authorsData);
@@ -92,6 +102,16 @@ function setupSearch() {
         
         displayAuthors(filteredAuthors);
     });
+    
+    if (clearBtn) {
+        clearBtn.addEventListener('click', () => {
+            searchInput.value = '';
+            currentFilter = '';
+            displayAuthors(authorsData);
+            clearBtn.style.display = 'none';
+            searchInput.focus();
+        });
+    }
 }
 
 // Initialize the page when DOM is loaded
