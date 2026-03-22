@@ -1,11 +1,26 @@
+<!-- index.html - Updated with SEO improvements -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ethiopian Literary Archive | Home</title>
+    
+    <!-- Primary Meta Tags -->
+    <title>Ethiopian Literary Archive | Discover Ethiopian Authors & Books</title>
+    <meta name="title" content="Ethiopian Literary Archive | Discover Ethiopian Authors & Books">
+    <meta name="description" content="Explore the rich literary heritage of Ethiopia. Discover celebrated Ethiopian authors, their books, and literary works from Haddis Alemayehu to contemporary writers.">
+    <meta name="keywords" content="Ethiopian authors, Ethiopian books, Ethiopian literature, Ethiopian writers, African literature, Amharic books, Ethiopian novels, Haddis Alemayehu, Maaza Mengiste, Dinaw Mengestu">
+    <meta name="author" content="Ethiopian Literary Archive">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+        
+    <!-- Preconnect for performance -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    
+    <!-- Fonts and Styles -->
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
@@ -19,19 +34,21 @@
 
         <div class="search-section">
             <div class="search-wrapper">
-                <input type="text" id="searchInput" placeholder="Search authors..." class="search-input">
-                <button id="clearSearchBtn" class="clear-search-btn" style="display: none;">
+                <label for="searchInput">Search authors by name</label>
+                <input type="text" id="searchInput" placeholder="Search authors..." class="search-input" aria-label="Search authors">
+                <button id="clearSearchBtn" class="clear-search-btn" style="display: none;" aria-label="Clear search">
                     <i class="fas fa-times"></i>
                 </button>
             </div>
         </div>
 
-        <div class="authors-grid" id="authorsGrid">
+        <div class="authors-grid" id="authorsGrid" aria-live="polite" aria-label="Authors grid">
             <div class="loading">Loading authors...</div>
         </div>
 
         <footer>
             <p>© 2024 Ethiopian Literary Archive — A digital collection of Ethiopian literary heritage</p>
+            <p class="footer-meta">Celebrating Ethiopian authors and their contributions to world literature</p>
         </footer>
     </div>
 
