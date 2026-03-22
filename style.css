@@ -242,7 +242,6 @@ footer {
 @media (max-width: 1200px) {
     .authors-grid {
         grid-template-columns: repeat(5, 1fr);
-        gap: 1.5rem;
     }
     
     .page-wrapper {
@@ -253,7 +252,6 @@ footer {
 @media (max-width: 992px) {
     .authors-grid {
         grid-template-columns: repeat(4, 1fr);
-        gap: 1.5rem;
     }
     
     h1 {
@@ -280,7 +278,6 @@ footer {
     
     .authors-grid {
         grid-template-columns: repeat(3, 1fr);
-        gap: 1.25rem;
     }
     
     .author-info {
@@ -299,7 +296,6 @@ footer {
 @media (max-width: 480px) {
     .authors-grid {
         grid-template-columns: repeat(2, 1fr);
-        gap: 1rem;
     }
     
     .author-info {
