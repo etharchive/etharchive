@@ -11,6 +11,9 @@ async function loadAuthors() {
         }
         const data = await response.json();
         authorsData = data.authors;
+        
+        authorsData.sort((a, b) => a.name.localeCompare(b.name));
+        
         displayAuthors(authorsData);
         setupSearch();
     } catch (error) {
@@ -166,6 +169,8 @@ function displayAuthorDetail(author, allAuthors) {
     const bookCount = author.books ? author.books.length : 0;
     const bookCountText = bookCount === 1 ? '1 Book' : `${bookCount} Books`;
     
+    const sortedBooks = [...author.books].sort((a, b) => a.title.localeCompare(b.title));
+    
     // Get related authors (random 4 authors excluding current)
     const relatedAuthors = allAuthors
         .filter(a => a.id !== author.id)
@@ -205,7 +210,7 @@ function displayAuthorDetail(author, allAuthors) {
             <div class="books-section">
                 <h2>Books by ${escapeHtml(author.name)}</h2>
                 <div class="books-grid">
-                    ${author.books.map(book => `
+                    ${sortedBooks.map(book => `
                         <a href="book.html?slug=${encodeURIComponent(book.slug)}" class="book-card">
                             <div class="book-image">
                                 <img src="${book.coverUrl || 'images/placeholder.png'}" 
@@ -318,8 +323,10 @@ function displayBookDetail(book, author, allAuthors) {
     const container = document.getElementById('bookContent');
     if (!container) return;
     
-    // Get other books by same author (excluding current book)
-    const otherBooks = author.books.filter(b => b.id !== book.id);
+    // Get other books by same author (excluding current book) and sort alphabetically
+    const otherBooks = author.books
+        .filter(b => b.id !== book.id)
+        .sort((a, b) => a.title.localeCompare(b.title));
     
     const bookHTML = `
         <div class="book-detail">
