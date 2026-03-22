@@ -529,7 +529,7 @@ footer {
 }
 
 .book-info {
-    padding: 1rem;
+    padding: 0.875rem;
     text-align: center;
 }
 
@@ -547,6 +547,16 @@ footer {
     font-size: 0.75rem;
     color: #6A4E2E;
     letter-spacing: 0.3px;
+}
+
+/* Book Genre Badge */
+.book-genre {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.65rem;
+    color: #C17B5E;
+    margin-top: 0.25rem;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
 }
 
 /* Related Authors Section */
@@ -713,6 +723,10 @@ footer {
     
     .books-section h2 {
         font-size: 1.5rem;
+    }
+    
+    .book-genre {
+        font-size: 0.6rem;
     }
 }
 

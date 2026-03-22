@@ -16,6 +16,8 @@
           "slug": "fikir-eske-mekabir",
           "description": "A classic Ethiopian novel exploring love, betrayal, and social norms in traditional Ethiopian society. Considered a masterpiece of Amharic literature.",
           "pages": 412,
+          "genre": "Literary Fiction",
+          "publisher": "Berhanena Selam Printing Press",
           "coverUrl": "images/placeholder.png"
         },
         {
@@ -25,6 +27,8 @@
           "slug": "ye-wof-wof",
           "description": "A collection of essays and reflections on Ethiopian society and culture during a period of significant change.",
           "pages": 188,
+          "genre": "Essays",
+          "publisher": "Artistic Printing Press",
           "coverUrl": "images/placeholder.png"
         }
       ]
@@ -45,6 +49,8 @@
           "slug": "the-shadow-king",
           "description": "A sweeping novel set during the 1935 Italian invasion of Ethiopia, focusing on the women who fought in the war. Shortlisted for the Booker Prize.",
           "pages": 448,
+          "genre": "Historical Fiction",
+          "publisher": "W. W. Norton & Company",
           "coverUrl": "images/placeholder.png"
         },
         {
@@ -54,6 +60,8 @@
           "slug": "beneath-the-lions-gaze",
           "description": "A story of a family torn apart by the Ethiopian Revolution of 1974, exploring loyalty, betrayal, and survival.",
           "pages": 320,
+          "genre": "Historical Fiction",
+          "publisher": "W. W. Norton & Company",
           "coverUrl": "images/placeholder.png"
         }
       ]
@@ -74,6 +82,8 @@
           "slug": "beautiful-things-heaven-bears",
           "description": "A novel about an Ethiopian immigrant running a small store in a gentrifying Washington D.C. neighborhood.",
           "pages": 288,
+          "genre": "Literary Fiction",
+          "publisher": "Riverhead Books",
           "coverUrl": "images/placeholder.png"
         },
         {
@@ -83,6 +93,8 @@
           "slug": "how-to-read-the-air",
           "description": "A story about one man's journey to understand his parents' past and his own identity through a road trip across America.",
           "pages": 320,
+          "genre": "Literary Fiction",
+          "publisher": "Riverhead Books",
           "coverUrl": "images/placeholder.png"
         }
       ]
@@ -103,6 +115,8 @@
           "slug": "consequences-of-love",
           "description": "A novel set in Saudi Arabia about forbidden love and the immigrant experience in a restrictive society.",
           "pages": 368,
+          "genre": "Contemporary Fiction",
+          "publisher": "Chatto & Windus",
           "coverUrl": "images/placeholder.png"
         },
         {
@@ -112,6 +126,8 @@
           "slug": "silence-is-my-mother-tongue",
           "description": "A story set in a Sudanese refugee camp about a brother and sister building a new life and community.",
           "pages": 400,
+          "genre": "Contemporary Fiction",
+          "publisher": "Indigo Press",
           "coverUrl": "images/placeholder.png"
         }
       ]
@@ -132,6 +148,8 @@
           "slug": "ye-ababa-wof",
           "description": "A novel exploring family dynamics and the role of women in Ethiopian society across generations.",
           "pages": 256,
+          "genre": "Literary Fiction",
+          "publisher": "Addis Ababa University Press",
           "coverUrl": "images/placeholder.png"
         },
         {
@@ -141,6 +159,8 @@
           "slug": "sost-maed",
           "description": "A collection of interconnected stories about urban life in Addis Ababa and the changing face of Ethiopian cities.",
           "pages": 192,
+          "genre": "Short Stories",
+          "publisher": "Artistic Printing Press",
           "coverUrl": "images/placeholder.png"
         }
       ]
@@ -161,6 +181,8 @@
           "slug": "oromay",
           "description": "A controversial novel that critiques the Derg regime, leading to the author's mysterious death shortly after publication.",
           "pages": 350,
+          "genre": "Political Fiction",
+          "publisher": "Berhanena Selam Printing Press",
           "coverUrl": "images/placeholder.png"
         },
         {
@@ -170,6 +192,8 @@
           "slug": "kebur-zema",
           "description": "A novel exploring the complexities of Ethiopian society during a time of political and social transition.",
           "pages": 280,
+          "genre": "Literary Fiction",
+          "publisher": "Artistic Printing Press",
           "coverUrl": "images/placeholder.png"
         }
       ]
@@ -188,8 +212,10 @@
           "title": "Notes from the Hyena's Belly",
           "year": 2000,
           "slug": "notes-from-the-hyenas-belly",
-          "description": "A memoir of growing up in Ethiopia during the动荡 years of the Derg regime, blending personal history with political commentary.",
+          "description": "A memoir of growing up in Ethiopia during the tumultuous years of the Derg regime, blending personal history with political commentary.",
           "pages": 352,
+          "genre": "Memoir",
+          "publisher": "Picador",
           "coverUrl": "images/placeholder.png"
         },
         {
@@ -199,6 +225,8 @@
           "slug": "the-god-who-begat-a-jackal",
           "description": "A novel set in 17th-century Ethiopia exploring themes of love, betrayal, and the collision of tradition and modernity.",
           "pages": 304,
+          "genre": "Historical Fiction",
+          "publisher": "Picador",
           "coverUrl": "images/placeholder.png"
         }
       ]
@@ -219,6 +247,8 @@
           "slug": "ye-addis-ababa-sew",
           "description": "A novel exploring the lives of young professionals navigating love, ambition, and tradition in modern Addis Ababa.",
           "pages": 290,
+          "genre": "Contemporary Fiction",
+          "publisher": "Addis Ababa University Press",
           "coverUrl": "images/placeholder.png"
         }
       ]

@@ -209,6 +209,7 @@ function displayAuthorDetail(author, allAuthors) {
                             <div class="book-info">
                                 <div class="book-title">${escapeHtml(book.title)}</div>
                                 <div class="book-year">${book.year}</div>
+                                ${book.genre ? `<div class="book-genre">${escapeHtml(book.genre)}</div>` : ''}
                             </div>
                         </a>
                     `).join('')}
