@@ -94,7 +94,9 @@ Edit `data.json` and add a new author object:
 }
 ```
 
-> Note: Always use webp for images
+> Note:
+> - Always use webp for images
+> - Use Gregorian Calendar for dates
 
 ## License
 
