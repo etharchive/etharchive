@@ -282,14 +282,6 @@ footer {
     color: #6A4E2E;
 }
 
-.footer-meta {
-    font-family: 'Inter', sans-serif;
-    font-size: 0.7rem;
-    color: #9B8568;
-    margin-top: 0.5rem;
-    letter-spacing: 0.3px;
-}
-
 /* Responsive Design */
 @media (max-width: 1200px) {
     .authors-grid {
