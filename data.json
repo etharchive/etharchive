@@ -10,8 +10,7 @@
       "bio": "Haddis Alemayehu was an Ethiopian novelist. His Amharic novel Love to the Grave is considered a classic of modern Ethiopian literature. Aside from literature, he was the Minister of Foreign Affairs from 1960 to 1961.",
       "externalLinks": {
         "wikipedia": "https://en.wikipedia.org/wiki/Haddis_Alemayehu",
-        "goodreads": "https://www.goodreads.com/author/list/15143971.Haddis_Alemayehu",
-        "personal": "https://zehabesha.com/remembering-haddis-alemayehu/"
+        "goodreads": "https://www.goodreads.com/author/list/15143971.Haddis_Alemayehu"
       },
       "featuredBook": 101,
       "books": [
@@ -25,6 +24,18 @@
           "genre": "Tragedy",
           "publisher": "Mega Publishing & Distribution PLC",
           "coverUrl": "images/books/fikir-eske-mekabir.webp",
+          "series": null
+        },
+        {
+          "id": 102,
+          "title": "Tizzita (Memories)",
+          "year": 1992,
+          "slug": "haddis-alemayehu-tizzita",
+          "description": "When the Ethiopian government collapsed, he stood with Ras Imru, fighting for his freedom and for the love of his country that burned in his heart. Whether standing, sitting, or sleeping, this love melted his heart. His eyes filled with tears, and he wrote these words in his book \"The Cry of Ethiopia,\" in the name of his mother country, to share his grief with his brothers and fellow Ethiopians.",
+          "pages": 0,
+          "genre": "Political",
+          "publisher": "Kuraz Publishing Agency",
+          "coverUrl": "images/books/haddis-alemayehu-tizzita.webp",
           "series": null
         }
       ]
