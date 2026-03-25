@@ -31,7 +31,7 @@
           "title": "Tizzita (Memories)",
           "year": 1992,
           "slug": "haddis-alemayehu-tizzita",
-          "description": "When the Ethiopian government collapsed, he stood with Ras Imru, fighting for his freedom and for the love of his country that burned in his heart. Whether standing, sitting, or sleeping, this love melted his heart. His eyes filled with tears, and he wrote these words in his book \"The Cry of Ethiopia,\" in the name of his mother country, to share his grief with his brothers and fellow Ethiopians.",
+          "description": "It is a book that describes the life they lived in exile during the five-year Italian occupation.",
           "pages": 0,
           "genre": "Autobiography",
           "publisher": "Kuraz Publishing Agency",
@@ -60,6 +60,18 @@
           "genre": "Novel",
           "publisher": "nəgd Printing Press (Kuraz Publishing Agency)",
           "coverUrl": "images/books/wenjelegnaw-dagna.webp",
+          "series": null
+        },
+        {
+          "id": 105,
+          "title": "Teret Teret Yemeseret",
+          "year": 1957,
+          "slug": "teret-teret-yemeseret",
+          "description": "Haddis Alemayehu's first published book. It contains sixteen tales, most of which have animals as their main characters; even if humans appear in the tales, they are portrayed as having not so much significant role. Tales in which abstract ideas such as death, old age, and disease are embodied are also included in the collection.",
+          "pages": 221,
+          "genre": "Novel",
+          "publisher": "",
+          "coverUrl": "images/books/teret-teret-yemeseret.webp",
           "series": null
         }
       ]
