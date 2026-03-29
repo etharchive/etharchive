@@ -2,7 +2,7 @@
 
 A beautifully designed, responsive static website celebrating Ethiopian writers and their literary works. Built with pure HTML, CSS, and JavaScript, this archive provides an elegant space to discover Ethiopian authors, explore their books, and learn about Ethiopia's rich literary heritage.
 
-[EthArchive Link](https://etharchive.github.io)
+![EthArchive Link](images/readme.png)
 
 ## Features
 
