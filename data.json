@@ -126,6 +126,18 @@
       },
       "featuredBook": 201,
       "books": [
+        {
+          "id": 201,
+          "title": "Mahlet",
+          "year": 2010,
+          "slug": "mahlet",
+          "description": "\"I read this book twice. Both times it shook my mind and shook it deeply. Dialectics teaches us that the transition (the final moment of transition) is called progress. Adam Reta's collection of short stories 'Mahlet' is the progress of the Amharic short stories. ...To understand the structure of these gem short stories, one must read them from within.\" -Abdella Azra-Sana",
+          "pages": 255,
+          "genre": "Literary Fiction",
+          "publisher": "Mahlet Publishers",
+          "coverUrl": "images/books/mahlet.webp",
+          "series": null
+        }
       ]
     },
     {
