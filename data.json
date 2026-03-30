@@ -124,7 +124,7 @@
         "wikipedia": "https://am.wikipedia.org/wiki/%E1%8A%A0%E1%8B%B3%E1%88%9D_%E1%88%A8%E1%89%B3",
         "goodreads": "https://www.goodreads.com/genres/adam-reta"
       },
-      "featuredBook": 201,
+      "featuredBook": 203,
       "books": [
         {
           "id": 201,
@@ -148,6 +148,18 @@
           "genre": "Literary Fiction",
           "publisher": "Rohobot",
           "coverUrl": "images/books/merek.webp",
+          "series": null
+        },
+        {
+          "id": 203,
+          "title": "Giracha Kachiloch",
+          "year": 2005,
+          "slug": "giracha-kachiloch",
+          "description": "This book, which tells the story of the main character, Dubale, is Adam Reta's first full-length novel. It is noteworthy that Adam's unique writing style, called \"Hitsnaminet (ሕፅናሚነት)\", was first used in this long novel.",
+          "pages": 454,
+          "genre": "Literary Fiction",
+          "publisher": "Addis Admas News",
+          "coverUrl": "images/books/giracha-kachiloch.webp",
           "series": null
         }
       ]
