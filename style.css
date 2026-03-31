@@ -1150,7 +1150,7 @@ footer {
 .other-books-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 1.5rem;
+    gap: 0.5rem;
 }
 
 /* Responsive Design for Book Page */
@@ -1166,7 +1166,6 @@ footer {
     
     .other-books-grid {
         grid-template-columns: repeat(3, 1fr);
-        gap: 1.25rem;
     }
 }
 
@@ -1197,7 +1196,6 @@ footer {
     
     .other-books-grid {
         grid-template-columns: repeat(2, 1fr);
-        gap: 1rem;
     }
     
     .author-bio-snippet {
@@ -1206,11 +1204,6 @@ footer {
 }
 
 @media (max-width: 480px) {
-    .other-books-grid {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 0.75rem;
-    }
-    
     .book-meta-grid {
         gap: 0.5rem;
     }
