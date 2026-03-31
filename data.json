@@ -222,6 +222,18 @@
           "publisher": "Rohobot",
           "coverUrl": "images/books/alengana-misr.webp",
           "series": null
+        },
+        {
+          "id": 209,
+          "title": "Af",
+          "year": 2018,
+          "slug": "af",
+          "description": "Adam's fourth full-length novel, 'Af', is structured in the form of the childhood game 'Qallbosh' and tells the story of the lives of five young people.",
+          "pages": 254,
+          "genre": "Fiction",
+          "publisher": "Rohobot",
+          "coverUrl": "images/books/af.webp",
+          "series": null
         }
       ]
     },
