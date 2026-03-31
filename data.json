@@ -186,6 +186,18 @@
           "publisher": "Rohobot",
           "coverUrl": "images/books/kesemay-yewerede-firfir.webp",
           "series": null
+        },
+        {
+          "id": 206,
+          "title": "Yesinbit Kelemat",
+          "year": 2016,
+          "slug": "yesinbit-kelemat",
+          "description": "The book is divided into eight chapters and 46 sub-chapters. The book, which covers love, politics, and national issues, is set in the \"Saris\" and \"Nfas Slk\" neighborhoods in Addis Ababa.",
+          "pages": 960,
+          "genre": "Long novel",
+          "publisher": "Hasab Publisher and Distributor",
+          "coverUrl": "images/books/yesinbit-kelemat.webp",
+          "series": null
         }
       ]
     },
