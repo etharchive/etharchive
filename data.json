@@ -274,7 +274,67 @@
           "publisher": "Kuraz Publishing Agency",
           "coverUrl": "images/books/sememen.webp",
           "series": null
-        }
+        },
+        {
+          "id": 302,
+          "title": "Girdosh",
+          "year": 1989,
+          "slug": "girdosh",
+          "description": "",
+          "pages": 288,
+          "genre": "",
+          "publisher": "",
+          "coverUrl": "images/books/girdosh.webp",
+          "series": null
+        },
+        {
+          "id": 303,
+          "title": "Rekik Ashara",
+          "year": 0,
+          "slug": "rekik-ashara",
+          "description": "",
+          "pages": 0,
+          "genre": "",
+          "publisher": "",
+          "coverUrl": "images/books/rekik-ashara.webp",
+          "series": null
+        },
+        {
+          "id": 304,
+          "title": "Tinsae",
+          "year": 0,
+          "slug": "tinsae",
+          "description": "",
+          "pages": 0,
+          "genre": "",
+          "publisher": "",
+          "coverUrl": "images/books/tinsae.webp",
+          "series": null
+        },
+        {
+          "id": 305,
+          "title": "Yekinat Zer",
+          "year": 0,
+          "slug": "yekinat-zer",
+          "description": "",
+          "pages": 0,
+          "genre": "",
+          "publisher": "",
+          "coverUrl": "images/books/yekinat-zer.webp",
+          "series": null
+        },
+        {
+          "id": 306,
+          "title": "Guzow",
+          "year": 0,
+          "slug": "guzow",
+          "description": "",
+          "pages": 0,
+          "genre": "",
+          "publisher": "",
+          "coverUrl": "images/books/guzow.webp",
+          "series": null
+        },
       ]
     },
     {
