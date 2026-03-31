@@ -122,7 +122,8 @@
       "bio": "Adam Reta was born in Addis Ababa in 1950 EC. He received his first degree in Geography from Addis Ababa University. He also received his second (master's) degree abroad. He writes mostly novels, but he also writes poems. His poems have been published in various magazines at different times. He also has unpublished poems.",
       "externalLinks": {
         "wikipedia": "https://am.wikipedia.org/wiki/%E1%8A%A0%E1%8B%B3%E1%88%9D_%E1%88%A8%E1%89%B3",
-        "goodreads": "https://www.goodreads.com/genres/adam-reta"
+        "goodreads": "https://www.goodreads.com/genres/adam-reta",
+        "personal": "https://adamretabooks.et/"
       },
       "featuredBook": 203,
       "books": [
@@ -160,6 +161,18 @@
           "genre": "Literary Fiction",
           "publisher": "Addis Admas News",
           "coverUrl": "images/books/giracha-kachiloch.webp",
+          "series": null
+        },
+        {
+          "id": 204,
+          "title": "Etemete Yelomi Shita",
+          "year": 2009,
+          "slug": "etemete-yelomi-shita",
+          "description": "A collection of short stories and novellas, the author takes us into a world we have forgotten and remembered, respected and despised, shunned and approached, feared and dared to embrace.",
+          "pages": 336,
+          "genre": "Fiction",
+          "publisher": "Rohobot",
+          "coverUrl": "images/books/etemete-yelomi-shita.webp",
           "series": null
         }
       ]
