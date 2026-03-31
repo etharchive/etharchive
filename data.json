@@ -210,6 +210,18 @@
           "publisher": "Rohobot",
           "coverUrl": "images/books/yiwesdal-menged-yametal-menged.webp",
           "series": null
+        },
+        {
+          "id": 208,
+          "title": "Alengana Misr",
+          "year": 2009,
+          "slug": "alengana-misr",
+          "description": "This book, which includes 17 short stories, contains stories that Adam wrote in Addis Ababa and Holland between 1975 and 1987 E.C. Among these short stories, the short story \"Yedinch Meswaet\" was translated into English by Bethlehem Atfield and set to a musical.",
+          "pages": 320,
+          "genre": "Fiction",
+          "publisher": "Rohobot",
+          "coverUrl": "images/books/alengana-misr.webp",
+          "series": null
         }
       ]
     },
