@@ -198,6 +198,18 @@
           "publisher": "Hasab Publisher and Distributor",
           "coverUrl": "images/books/yesinbit-kelemat.webp",
           "series": null
+        },
+        {
+          "id": 207,
+          "title": "Yiwesdal Menged Yametal Menged",
+          "year": 2010,
+          "slug": "yiwesdal-menged-yametal-menged",
+          "description": "Adam Reta sensitively explores life abroad by setting the book's main plot outside the country (Ethiopia), and his observation of the intricacies of Ethiopian politics has left a lasting impression.",
+          "pages": 438,
+          "genre": "Literary Fiction",
+          "publisher": "Rohobot",
+          "coverUrl": "images/books/yiwesdal-menged-yametal-menged.webp",
+          "series": null
         }
       ]
     },
