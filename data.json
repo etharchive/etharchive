@@ -584,6 +584,23 @@
       "featuredBook": 1901,
       "books": [
       ]
+    },
+    {
+      "id": 20,
+      "name": "Maaza Mengiste",
+      "birthYear": 1974,
+      "deathYear": null,
+      "slug": "maaza-mengiste",
+      "imageUrl": "images/authors/maaza-mengiste.webp",
+      "bio": "A novelist and essayist. Her debut novel, Beneath the Lion’s Gaze, was selected by the Guardian as one of the 10 best contemporary African books and named one of the best books of 2010 by Christian Science Monitor, Boston Globe and other publications.",
+      "externalLinks": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Maaza_Mengiste",
+        "goodreads": "https://www.goodreads.com/author/show/2960215.Maaza_Mengiste",
+        "personal": "https://www.maazamengiste.com/"
+      },
+      "featuredBook": 2001,
+      "books": [
+      ]
     }
   ]
 }
