@@ -413,6 +413,66 @@
       },
       "featuredBook": 801,
       "books": [
+        {
+          "id": 801,
+          "title": "Oromay",
+          "year": 0,
+          "slug": "oromay",
+          "description": "",
+          "pages": 0,
+          "genre": "",
+          "publisher": "",
+          "coverUrl": "images/books/oromay.webp",
+          "series": null
+        },
+        {
+          "id": 802,
+          "title": "Haddis",
+          "year": 0,
+          "slug": "haddis",
+          "description": "",
+          "pages": 0,
+          "genre": "",
+          "publisher": "",
+          "coverUrl": "images/books/haddis.webp",
+          "series": null
+        },
+        {
+          "id": 803,
+          "title": "Keadmas Bashager",
+          "year": 0,
+          "slug": "keadmas-bashager",
+          "description": "",
+          "pages": 0,
+          "genre": "",
+          "publisher": "",
+          "coverUrl": "images/books/keadmas-bashager.webp",
+          "series": null
+        },
+        {
+          "id": 804,
+          "title": "Yehilina Hiwot",
+          "year": 0,
+          "slug": "yehilina-hiwot",
+          "description": "",
+          "pages": 0,
+          "genre": "",
+          "publisher": "",
+          "coverUrl": "images/books/yehilina-hiwot.webp",
+          "series": null
+        },
+        {
+          "id": 805,
+          "title": "Yekey Kokeb Tri",
+          "year": 0,
+          "slug": "yekey-kokeb-tri",
+          "description": "",
+          "pages": 0,
+          "genre": "",
+          "publisher": "",
+          "coverUrl": "images/books/yekey-kokeb-tri.webp",
+          "series": null
+        }
       ]
     },
     {
