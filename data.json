@@ -635,6 +635,42 @@
           "publisher": "",
           "coverUrl": "images/books/in-search-of-fat.webp",
           "series": null
+        },
+        {
+          "id": 1307,
+          "title": "Yesar Dar Hasaboch",
+          "year": 0,
+          "slug": "yesar-dar-hasaboch",
+          "description": "",
+          "pages": 0,
+          "genre": "",
+          "publisher": "",
+          "coverUrl": "images/books/yesar-dar-hasaboch.webp",
+          "series": null
+        },
+        {
+          "id": 1308,
+          "title": "Berari Kiteloch",
+          "year": 0,
+          "slug": "berari-kiteloch",
+          "description": "",
+          "pages": 0,
+          "genre": "",
+          "publisher": "",
+          "coverUrl": "images/books/berari-kiteloch.webp",
+          "series": null
+        },
+        {
+          "id": 1309,
+          "title": "Nuari Alba Gojowoch",
+          "year": 0,
+          "slug": "nuari-alba-gojowoch",
+          "description": "",
+          "pages": 0,
+          "genre": "",
+          "publisher": "",
+          "coverUrl": "images/books/nuari-alba-gojowoch.webp",
+          "series": null
         }
       ]
     },
