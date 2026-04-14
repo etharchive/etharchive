@@ -528,12 +528,12 @@
         {
           "id": 901,
           "title": "Werisa",
-          "year": 0,
+          "year": 2015,
           "slug": "werisa",
-          "description": "",
-          "pages": 0,
-          "genre": "",
-          "publisher": "",
+          "description": "An Amharic teacher from Arsi Negele moves into the house his aunt temporarily inherited in a neighborhood called Werisa in Addis Ababa. The teacher narrates the challenges of adaptation and living in this neighborhood and its neighboring neighborhood \"Eri Bekentu\", conflicts, compromises, deceit, love, dilemmas, conflicts, and the traditions and stories they experience. The traditions, stories, parables, and stories that the book brings up are symbolic and show the past and present history of Ethiopia: the distorted eyes of the current generation, the different realities in the current generation, and the differences and conflicts that neighbors with different backgrounds have with the past.",
+          "pages": 240,
+          "genre": "Fiction",
+          "publisher": "Atafzer Publishing",
           "coverUrl": "images/books/werisa.webp",
           "series": null
         },
