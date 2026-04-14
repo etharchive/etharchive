@@ -600,11 +600,11 @@
         {
           "id": 908,
           "title": "Hasetegnaw Bemnet Sim",
-          "year": 0,
+          "year": 2020,
           "slug": "hasetegnaw-bemnet-sim",
-          "description": "",
-          "pages": 0,
-          "genre": "",
+          "description": "Alemayehu Gelagay's \"Hasetegnaw Bemnet Sim (The Liar in the Name of Faith)\" is a straightforward and critical book that exposes the frauds committed under the guise of religion, the exploitation of people's weaknesses, and the trade in faith. The author analyzes the psychology of society and the strategies of false leaders with mature wisdom.",
+          "pages": 304,
+          "genre": "Fiction",
           "publisher": "",
           "coverUrl": "images/books/hasetegnaw-bemnet-sim.webp",
           "series": null
@@ -703,6 +703,30 @@
           "genre": "",
           "publisher": "",
           "coverUrl": "images/books/ferisa.webp",
+          "series": null
+        },
+        {
+          "id": 917,
+          "title": "Tale Bewket Sim",
+          "year": 0,
+          "slug": "tale-bewket-sim",
+          "description": "",
+          "pages": 0,
+          "genre": "",
+          "publisher": "",
+          "coverUrl": "images/books/tale-bewket-sim.webp",
+          "series": null
+        },
+        {
+          "id": 918,
+          "title": "Meleyayet Mot New",
+          "year": 0,
+          "slug": "meleyayet-mot-new",
+          "description": "",
+          "pages": 0,
+          "genre": "",
+          "publisher": "",
+          "coverUrl": "images/books/meleyayet-mot-new.webp",
           "series": null
         }
       ]
