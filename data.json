@@ -624,12 +624,12 @@
         {
           "id": 910,
           "title": "Wilbta",
-          "year": 0,
+          "year": 2019,
           "slug": "wilbta",
-          "description": "",
-          "pages": 0,
-          "genre": "",
-          "publisher": "",
+          "description": "The book focuses on social life, psychological analysis, and human relationships. Readers testify to the author's talent for expressing people's emotions and hidden personalities in a subtle and profound way.",
+          "pages": 160,
+          "genre": "Anthology",
+          "publisher": "H&F",
           "coverUrl": "images/books/wilbta.webp",
           "series": null
         },
