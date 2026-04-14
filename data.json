@@ -564,12 +564,12 @@
         {
           "id": 904,
           "title": "Befikir Sim",
-          "year": 0,
+          "year": 2017,
           "slug": "befikir-sim",
-          "description": "",
-          "pages": 0,
-          "genre": "",
-          "publisher": "",
+          "description": "A postmodern experimental novel by Alemayehu Gelagay that breaks away from traditional Ethiopian storytelling. The book is structured in two parts: the first features 20 interconnected narratives exploring complex human relationships, while the second is a somber tribute to the victims of the Shegole ammunition factory explosion. Rather than a typical romance, it uses meta-fiction and philosophical inquiry to deconstruct the concept of love through the lens of family, tragedy, and social identity.",
+          "pages": 216,
+          "genre": "Fiction",
+          "publisher": "Heritage Publishing",
           "coverUrl": "images/books/befikir-sim.webp",
           "series": null
         },
