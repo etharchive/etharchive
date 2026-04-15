@@ -636,12 +636,12 @@
         {
           "id": 911,
           "title": "Qibela",
-          "year": 0,
+          "year": 2010,
           "slug": "qibela",
           "description": "",
-          "pages": 0,
-          "genre": "",
-          "publisher": "",
+          "pages": 206,
+          "genre": "Fiction",
+          "publisher": "Atafzer Publishing",
           "coverUrl": "images/books/qibela.webp",
           "series": null
         },
