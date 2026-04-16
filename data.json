@@ -716,6 +716,18 @@
           "publisher": "Mekasha Publishers",
           "coverUrl": "images/books/tale-bewket-sim.webp",
           "series": null
+        },
+        {
+          "id": 918,
+          "title": "Meleyayet Mot New",
+          "year": 2018,
+          "slug": "meleyayet-mot-new",
+          "description": "Alemayehu Gelagay's book \"Meleyayet Mot New (Separation is Death)\" is a work of great importance in modern Ethiopian literature, containing political, social, and artistic content. The book explores the separation of people, emotional breakdowns, and social impacts in a sophisticated narrative, and the author's evocative writing and in-depth analysis have won the admiration of many readers.",
+          "pages": 200,
+          "genre": "Fiction",
+          "publisher": "Empress Publications",
+          "coverUrl": "images/books/meleyayet-mot-new.webp",
+          "series": null
         }
       ]
     },
