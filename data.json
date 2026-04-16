@@ -704,6 +704,18 @@
           "publisher": "",
           "coverUrl": "images/books/ferisa.webp",
           "series": null
+        },
+        {
+          "id": 917,
+          "title": "Tale Bewket Sim",
+          "year": 2019,
+          "slug": "tale-bewket-sim",
+          "description": "Tale Bewnet Sem, written by Alemayehu Gelagay, is a wonderful Amharic novel that evokes deep emotions, focuses on human suffering and truth, and is set in the city of Addis Ababa.",
+          "pages": 216,
+          "genre": "Fiction",
+          "publisher": "Mekasha Publishers",
+          "coverUrl": "images/books/tale-bewket-sim.webp",
+          "series": null
         }
       ]
     },
