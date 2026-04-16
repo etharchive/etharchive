@@ -696,37 +696,13 @@
         {
           "id": 916,
           "title": "Ferisa",
-          "year": 0,
+          "year": 2026,
           "slug": "ferisa",
           "description": "",
           "pages": 0,
-          "genre": "",
+          "genre": "Fiction",
           "publisher": "",
           "coverUrl": "images/books/ferisa.webp",
-          "series": null
-        },
-        {
-          "id": 917,
-          "title": "Tale Bewket Sim",
-          "year": 0,
-          "slug": "tale-bewket-sim",
-          "description": "",
-          "pages": 0,
-          "genre": "",
-          "publisher": "",
-          "coverUrl": "images/books/tale-bewket-sim.webp",
-          "series": null
-        },
-        {
-          "id": 918,
-          "title": "Meleyayet Mot New",
-          "year": 0,
-          "slug": "meleyayet-mot-new",
-          "description": "",
-          "pages": 0,
-          "genre": "",
-          "publisher": "",
-          "coverUrl": "images/books/meleyayet-mot-new.webp",
           "series": null
         }
       ]
