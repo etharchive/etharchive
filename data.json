@@ -929,6 +929,102 @@
       },
       "featuredBook": 1501,
       "books": [
+        {
+          "id": 1501,
+          "title": "Himamat",
+          "year": 0,
+          "slug": "himamat",
+          "description": "",
+          "pages": 0,
+          "genre": "",
+          "publisher": "",
+          "coverUrl": "images/books/himamat.webp",
+          "series": null
+        },
+        {
+          "id": 1502,
+          "title": "Kana Zegelila",
+          "year": 0,
+          "slug": "kana-zegelila",
+          "description": "",
+          "pages": 0,
+          "genre": "",
+          "publisher": "",
+          "coverUrl": "images/books/kana-zegelila.webp",
+          "series": null
+        },
+        {
+          "id": 1503,
+          "title": "Ethiopiawiw Jandereba",
+          "year": 0,
+          "slug": "ethiopiawiw-jandereba",
+          "description": "",
+          "pages": 0,
+          "genre": "",
+          "publisher": "",
+          "coverUrl": "images/books/ethiopiawiw-jandereba.webp",
+          "series": null
+        },
+        {
+          "id": 1504,
+          "title": "Aberetach Medhanit",
+          "year": 0,
+          "slug": "aberetach-medhanit",
+          "description": "",
+          "pages": 0,
+          "genre": "",
+          "publisher": "",
+          "coverUrl": "images/books/aberetach-medhanit.webp",
+          "series": null
+        },
+        {
+          "id": 1505,
+          "title": "Ke'mot Bashager",
+          "year": 0,
+          "slug": "kemot-bashager",
+          "description": "",
+          "pages": 0,
+          "genre": "",
+          "publisher": "",
+          "coverUrl": "images/books/kemot-bashager.webp",
+          "series": null
+        },
+        {
+          "id": 1506,
+          "title": "Ye'giyon Wenz",
+          "year": 0,
+          "slug": "yegiyon-wenz",
+          "description": "",
+          "pages": 0,
+          "genre": "",
+          "publisher": "",
+          "coverUrl": "images/books/yegiyon-wenz.webp",
+          "series": null
+        },
+        {
+          "id": 1507,
+          "title": "Ye'brhan Enat",
+          "year": 0,
+          "slug": "yebrhan-enat",
+          "description": "",
+          "pages": 0,
+          "genre": "",
+          "publisher": "",
+          "coverUrl": "images/books/yebrhan-enat.webp",
+          "series": null
+        },
+        {
+          "id": 1508,
+          "title": "Ye'ofeson Wenz",
+          "year": 0,
+          "slug": "yeofeson-wenz",
+          "description": "",
+          "pages": 0,
+          "genre": "",
+          "publisher": "",
+          "coverUrl": "images/books/yeofeson-wenz.webp",
+          "series": null
+        }
       ]
     },
     {
