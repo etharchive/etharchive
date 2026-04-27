@@ -992,12 +992,12 @@
         {
           "id": 1506,
           "title": "Ye'giyon Wenz",
-          "year": 0,
+          "year": 2026,
           "slug": "yegiyon-wenz",
-          "description": "",
-          "pages": 0,
-          "genre": "",
-          "publisher": "",
+          "description": "This book contains 'YeGhion Wenz' and various articles prepared by Deacon Henok Haile.",
+          "pages": 250,
+          "genre": "Religious",
+          "publisher": "...",
           "coverUrl": "images/books/yegiyon-wenz.webp",
           "series": null
         },
